@@ -1,7 +1,12 @@
 import React from "react";
+import Layout from "../layouts/Layout";
 
 const RhodesianInfoPage = () => {
-  return <div>Pagina Principal de la Raza Rhodesian</div>;
+  return (
+    <Layout>
+      <div>Informacion sobre Rhodesian</div>
+    </Layout>
+  );
 };
 
 export default RhodesianInfoPage;

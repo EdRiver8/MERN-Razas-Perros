@@ -8,6 +8,21 @@ ul {
   margin: 0px;
 }
 
+.mainConteiner {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.mainConteiner > main {
+  height: 100%;
+}
+
+.mainConteiner > footer {
+  background-color: red;
+  padding: 10px;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;

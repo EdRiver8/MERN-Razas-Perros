@@ -6,6 +6,7 @@ const Layout = ({ children }) => {
   return (
     <div className="mainConteiner">
       <Header />
+      {/* children, trae la informacion del componente que esta dentro de layout en routes del app */}
       <main>{children}</main>
       <Footer />
     </div>

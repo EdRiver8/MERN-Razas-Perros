@@ -95,6 +95,7 @@ ul {
 
 .breedCardContainer {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .breedCard {

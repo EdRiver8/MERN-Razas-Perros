@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Layout from "./layouts/Layout";
 import BordercollieInfoPage from "./pages/Bordercollie";
-import Home from "./pages/Index";
+import Home from "./pages/Home";
 import RhodesianInfoPage from "./pages/Rhodesian";
 import "./styles/styles.css";
 
